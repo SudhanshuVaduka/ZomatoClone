@@ -1,0 +1,502 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Roboto:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}  
+
+body{
+    height: 1000px;
+    overflow-x: hidden;
+}
+
+.container_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.Bar1{
+    width: 25px;
+    background-color:black;
+    padding: 2.1px;
+    margin:2.5px;
+}
+
+.Bar2{
+    width: 25px;
+    background-color:black;
+    padding: 2.1px;
+    margin:2.5px;
+}
+
+.Bar3{
+    width: 25px;
+    background-color:black;
+    padding: 2.1px;
+    margin:2.5px;
+}
+
+.zomatologo{
+    padding:21px;
+    height:auto;
+}
+
+.mode{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap:17.5%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.265);
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+
+.delivery img{
+    width:25%;
+    height: auto;
+}
+
+.Dining{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.Dining img{
+    width:25%;
+    height: auto;
+}
+
+.Nightlife{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.Nightlife img{
+    width:25%;
+    height: auto;
+}
+
+.h7{
+    margin:-70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    color: hsl(0, 1%, 45%);
+}
+
+.wholefilters{
+    display: flex;
+    gap:17px;
+    margin: 35px;
+}
+
+.filters{
+    display:flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: hsla(0, 1%, 37%, 0.635);
+    gap: 10px;
+    border: 1px solid hsla(0, 1%, 37%, 0.635);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.filters img{
+    width: 10px;
+    height: auto;
+}
+
+.filter1{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: hsla(0, 1%, 37%, 0.635);
+    border: 1px solid hsla(0, 1%, 37%, 0.635);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.filter2{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: hsla(0, 1%, 37%, 0.635);
+    border: 1px solid hsla(0, 1%, 37%, 0.635);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.filter3{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: hsla(0, 1%, 37%, 0.635);
+    border: 1px solid hsla(0, 1%, 37%, 0.635);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+.First_inspiration{
+    padding-bottom:25px;
+    background-color: rgba(128, 128, 128, 0.075);
+    width:100%;
+    height: auto;
+}
+
+.First_Inspiration{
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:599;
+    padding: 30px;
+}
+
+.Inspirations{
+    display: flex;
+    overflow: auto;
+   
+    gap: 40px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.inspiration1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration1 img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.inspiration2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration2 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius: 90px;
+}
+
+.inspiration3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration3 img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.inspiration4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration4 img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.inspiration5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration5 img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.Inspiration_name{
+    font-family:'Poppins', sans-serif; 
+    font-size: larger;
+}   
+
+.TOPBRANDS{
+    padding-bottom:25px;
+    }
+
+.Top_brands{
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:599;
+    padding: 30px;
+} 
+
+.Top_Brands{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 40px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.Top_brands1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top_brands1 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius:190px;
+}
+
+.Top_brands2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top_brands2 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius:190px;
+    
+}
+
+.Top_brands3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top_brands3 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius:190px;
+}
+
+.Top_brands4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top_brands4 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius:190px;
+}
+
+.Top_brands5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top_brands5 img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius:190px;
+}
+
+.Brand_name{
+    font-family:'Poppins', sans-serif; 
+    font-size: larger;
+}
+
+.Best_Places{
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:599;
+    padding: 30px;
+}
+
+.card:hover{
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height:100%;
+    color: gray;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(121, 125, 130, 0.402), 1px 3px 8px rgb(24, 25, 25);
+    transition: all .5s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.top img{
+    position:relative;
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+
+.top figcaption{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    align-content: center;
+}
+
+.name_rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.sec2{
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+.traveltime{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px  0 ;
+    border-bottom: 1px solid;
+    
+}
+
+.sec3 img{
+    width: 50px;
+    padding-top: 10px;
+}
+
+.sec3{
+    display: flex;
+    font-family: 'poppins',sans-serif;
+    font-size:17px;
+    word-spacing: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec3 img:not(:hover){
+    padding-right: 10px;
+}
+
+.sec3 figcaption:not(:hover){
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card:not(:hover){
+    width:170px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    background-color: hsla(0, 4%, 91%, 0.276);
+    color: gray;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition:  all .5s ease;
+    
+}
+
+.All_Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
+
+.comfooter{
+    background-color:rgba(246, 238, 227, 0.393);
+}
+
+.footer1{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.h7{
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    color: hsla(0, 1%, 68%, 0.42)7% 32%;
+    font-size: smaller;
+}
+
+.SOCIAL_LINKS{
+    width:50px;
+    height: 100px;
+}
+
+.SOCIAL_LINKS img{
+    width:100%;
+    height:100% ;
+}
+
+.zomatologo_footer{
+    border-top: 1px solid black;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    
+}
+
+.zomatologo_footer img{
+    width: 100px;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
